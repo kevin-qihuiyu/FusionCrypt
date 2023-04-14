@@ -12,6 +12,7 @@
 		B254B4B429E9500A00548828 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4B329E9500A00548828 /* CoinRowView.swift */; };
 		B254B4B629E9506B00548828 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4B529E9506B00548828 /* PreviewProvider.swift */; };
 		B254B4B829E9562F00548828 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4B729E9562F00548828 /* Double.swift */; };
+		B254B4BA29E982D300548828 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4B929E982D300548828 /* HomeViewModel.swift */; };
 		B26BDD8229E7FCE40070E787 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BDD8129E7FCE40070E787 /* HomeView.swift */; };
 		B26BDD8629E7FF110070E787 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BDD8529E7FF110070E787 /* CircleButtonView.swift */; };
 		B2CFE3C829E73D24008862CE /* FusionCryptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFE3C729E73D24008862CE /* FusionCryptApp.swift */; };
@@ -27,6 +28,7 @@
 		B254B4B329E9500A00548828 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		B254B4B529E9506B00548828 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		B254B4B729E9562F00548828 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		B254B4B929E982D300548828 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B26BDD8129E7FCE40070E787 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = FusionCrypt/Core/Home/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
 		B26BDD8529E7FF110070E787 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		B2CFE3C429E73D24008862CE /* FusionCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusionCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 		B26BDD8029E7FCC30070E787 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B254B4B929E982D300548828 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -126,10 +129,10 @@
 		B2CFE3C629E73D24008862CE /* FusionCrypt */ = {
 			isa = PBXGroup;
 			children = (
+				B2CFE3C729E73D24008862CE /* FusionCryptApp.swift */,
 				B2CFE3D929E7407F008862CE /* Extensions */,
 				B254B4B029E89EC000548828 /* Models */,
 				B26BDD7D29E7FCA30070E787 /* Core */,
-				B2CFE3C729E73D24008862CE /* FusionCryptApp.swift */,
 				B2CFE3C929E73D24008862CE /* ContentView.swift */,
 				B2CFE3D729E73EED008862CE /* Assets.xcassets */,
 				B2CFE3CD29E73D25008862CE /* Preview Content */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B254B4B429E9500A00548828 /* CoinRowView.swift in Sources */,
+				B254B4BA29E982D300548828 /* HomeViewModel.swift in Sources */,
 				B2CFE3CA29E73D24008862CE /* ContentView.swift in Sources */,
 				B26BDD8229E7FCE40070E787 /* HomeView.swift in Sources */,
 				B2CFE3C829E73D24008862CE /* FusionCryptApp.swift in Sources */,
