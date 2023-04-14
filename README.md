@@ -8,5 +8,7 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Color schemes for light and dark mode
 - SwiftUI Animations
 - CoinGecko Crypto Currency API, Data model generation with quicktype
+- Number and string formatting
+- Design Patterns: MVVM, singleton, extensions
 
 
