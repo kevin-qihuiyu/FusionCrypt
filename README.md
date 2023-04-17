@@ -13,4 +13,4 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Use a service layer publish/subscription model for data calls.
 - Use a network utility class that encapsulate networking requests and error handling, error enums
 - Combine framework: @Publish, ObservableObject, State object, environment object, tryMap, sink, subsription, cancellable
-
+- Local persistence with FileManager
