@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B241FFA229ED4BBD00408C28 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241FFA129ED4BBD00408C28 /* NetworkingManager.swift */; };
 		B254B4AF29E8927A00548828 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4AE29E8927A00548828 /* CircleButtonAnimationView.swift */; };
 		B254B4B229E89EEF00548828 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4B129E89EEF00548828 /* CoinModel.swift */; };
 		B254B4B429E9500A00548828 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B254B4B329E9500A00548828 /* CoinRowView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B241FFA129ED4BBD00408C28 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		B254B4AE29E8927A00548828 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		B254B4B129E89EEF00548828 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		B254B4B329E9500A00548828 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B241FFA029ED4B9000408C28 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B241FFA129ED4BBD00408C28 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B254B4B029E89EC000548828 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 			children = (
 				B2CFE3C729E73D24008862CE /* FusionCryptApp.swift */,
 				B2CFE3D929E7407F008862CE /* Extensions */,
+				B241FFA029ED4B9000408C28 /* Utilities */,
 				B254B4BB29E9A31600548828 /* Services */,
 				B254B4B029E89EC000548828 /* Models */,
 				B26BDD7D29E7FCA30070E787 /* Core */,
@@ -247,6 +258,7 @@
 				B2CFE3C829E73D24008862CE /* FusionCryptApp.swift in Sources */,
 				B26BDD8629E7FF110070E787 /* CircleButtonView.swift in Sources */,
 				B2CFE3DB29E740A6008862CE /* Color.swift in Sources */,
+				B241FFA229ED4BBD00408C28 /* NetworkingManager.swift in Sources */,
 				B254B4AF29E8927A00548828 /* CircleButtonAnimationView.swift in Sources */,
 				B254B4B629E9506B00548828 /* PreviewProvider.swift in Sources */,
 				B254B4B829E9562F00548828 /* Double.swift in Sources */,
