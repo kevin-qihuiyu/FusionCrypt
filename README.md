@@ -14,4 +14,4 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Use a network utility class that encapsulate networking requests and error handling, error enums
 - Combine framework: @Publish, ObservableObject, @StateObject, environment object, tryMap, sink, subsription, cancellable
 - Local persistence with FileManager
-- Implement a search bar: HStack, overlay, onTapGesture, searchText @Binding
+- Implement a search bar: HStack, overlay, onTapGesture, searchText @Binding, combine subscriptions, filter, debounce for performance
