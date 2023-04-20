@@ -16,5 +16,6 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Local persistence with FileManager
 - Implement a search bar: HStack, overlay, onTapGesture, searchText @Binding, combine subscriptions, filter, debounce for performance
 - Create market statistic view and download data from API, extend Double for formatting, map between data models object to list
+- Create portfolio management sheet, dismiss sheet, ScrollView, NavigationView, toolbar, LazyHStack, withAnimation
 
 ![HomePage](docs/0-home-page.png)
