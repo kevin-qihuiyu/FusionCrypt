@@ -20,5 +20,6 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Core Data database: entity modeling for portfolio coins, CRUD operations: NSPersistentCotainer, container.viewContext, NSFetchReuqest
 - Haptic feedback on reload operation with UINotificationFeedBackGenerator
 - Enable sorting of coin list, improve performance by in-place sort with inout &ref
+- Custom NavigationLink for lazy loading of coin DetailView
 
 ![HomePage](docs/0-home-page.png)
