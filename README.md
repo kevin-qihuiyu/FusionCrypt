@@ -18,5 +18,6 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Create market statistic view and download data from API, extend Double for formatting, map between data models object to list
 - Create portfolio management sheet, dismiss sheet, ScrollView, NavigationView, toolbar, LazyHStack, withAnimation, onChange
 - Core Data database: entity modeling for portfolio coins, CRUD operations: NSPersistentCotainer, container.viewContext, NSFetchReuqest
+- Haptic feedback on reload operation with UINotificationFeedBackGenerator
 
 ![HomePage](docs/0-home-page.png)
