@@ -4,7 +4,7 @@ A crypto currency app that provides all information about the hottest crypto cur
 
 ## Technical Points
 
-- SwiftUI declarative UI: ZStack, HStack...
+- SwiftUI declarative UI
 - Color schemes for light and dark mode
 - SwiftUI Animations
 - CoinGecko Crypto Currency API, Data model generation with quicktype, Codable, CodingKeys
@@ -16,6 +16,7 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Local persistence with FileManager
 - Implement a search bar: HStack, overlay, onTapGesture, searchText @Binding, combine subscriptions, filter, debounce for performance
 - Create market statistic view and download data from API, extend Double for formatting, map between data models object to list
-- Create portfolio management sheet, dismiss sheet, ScrollView, NavigationView, toolbar, LazyHStack, withAnimation
+- Create portfolio management sheet, dismiss sheet, ScrollView, NavigationView, toolbar, LazyHStack, withAnimation, onChange
+- Core Data database: entity modeling for portfolio coins, CRUD operations: NSPersistentCotainer, container.viewContext, NSFetchReuqest
 
 ![HomePage](docs/0-home-page.png)
