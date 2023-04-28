@@ -12,7 +12,7 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Design Patterns: MVVM, singleton, extensions
 - Use a service layer publish/subscription model for coin data calls.
 - Use a network utility class that encapsulate networking requests and error handling, error enums
-- Combine framework: @Publish, ObservableObject, @StateObject, environment object, tryMap, sink, subsription, cancellable
+- Combine framework: @Publish, ObservableObject, @StateObject, environment object, subscription, cancellable, combineLatest, map, reduce, compactMap, tryMap, sink
 - Local persistence with FileManager
 - Implement a search bar: HStack, overlay, onTapGesture, searchText @Binding, combine subscriptions, filter, debounce for performance
 - Create market statistic view and download data from API, extend Double for formatting, map between data models object to list
