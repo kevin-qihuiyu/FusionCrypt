@@ -21,6 +21,8 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Haptic feedback on reload operation with UINotificationFeedBackGenerator
 - Enable sorting of coin list, improve performance by in-place sort with inout &ref
 - Custom NavigationLink for lazy loading of coin DetailView
-- DetailView: LazyVGrid, GridItem .flexible for columns, ForEach, 
+- DetailView: LazyVGrid, GridItem .flexible for columns, ForEach
+- ChartView for sparkline of prices in 7 day: GeometryReader, Path, overlay background, legends
+- Animate sparkline: onAppear, withAnimation, DispathQueue.main.asyncAfter, trim
 
 ![HomePage](docs/0-home-page.png)
