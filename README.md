@@ -25,4 +25,6 @@ A crypto currency app that provides all information about the hottest crypto cur
 - ChartView for sparkline of prices in 7 day: GeometryReader, Path, overlay background, legends
 - Animate sparkline: onAppear, withAnimation, DispathQueue.main.asyncAfter, trim
 
-![HomePage](docs/0-home-page.png)
+![CoinInfo](docs/0-1.png)
+![EditPortfolio](docs/2-3.png)
+
