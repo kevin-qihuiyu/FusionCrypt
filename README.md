@@ -26,6 +26,7 @@ A crypto currency app that provides all information about the hottest crypto cur
 - Animate sparkline: onAppear, withAnimation, DispathQueue.main.asyncAfter, trim
 - Expandable/Collpsable coin description section, lineLimit
 - Settings sheet: ZStack, Section, List, Link
+- App Icon, LaunchScreen (Storyboard), LaunchAnimation with text jump and loop: Timer.publish onReceive(timer), match counter and index, ForEach indices
 
 ![CoinInfo](docs/0-1.png)
 ![EditPortfolio](docs/2-3.png)

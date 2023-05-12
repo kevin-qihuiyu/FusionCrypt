@@ -35,6 +35,8 @@
 		B26BDD8229E7FCE40070E787 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BDD8129E7FCE40070E787 /* HomeView.swift */; };
 		B26BDD8629E7FF110070E787 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BDD8529E7FF110070E787 /* CircleButtonView.swift */; };
 		B2730B5A2A0B9D1D006BB5FB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2730B592A0B9D1D006BB5FB /* String.swift */; };
+		B27E0FCE2A0E3FFB001D8A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27E0FCD2A0E3FFB001D8A57 /* LaunchScreen.storyboard */; };
+		B27E0FD02A0E41FB001D8A57 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E0FCF2A0E41FB001D8A57 /* LaunchView.swift */; };
 		B290A64E2A002E5B00339E32 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290A64D2A002E5B00339E32 /* ChartView.swift */; };
 		B2AFCF9D29FC326500AED41B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AFCF9C29FC326500AED41B /* DetailView.swift */; };
 		B2C6249529EDBFF70031E41B /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6249429EDBFF70031E41B /* LocalFileManager.swift */; };
@@ -77,6 +79,8 @@
 		B26BDD8129E7FCE40070E787 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = FusionCrypt/Core/Home/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
 		B26BDD8529E7FF110070E787 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		B2730B592A0B9D1D006BB5FB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B27E0FCD2A0E3FFB001D8A57 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B27E0FCF2A0E41FB001D8A57 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		B290A64D2A002E5B00339E32 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B2AFCF9C29FC326500AED41B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B2C6249429EDBFF70031E41B /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 		B26BDD7D29E7FCA30070E787 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B27E0FCB2A0E3FDB001D8A57 /* Launch */,
 				B24AB4B92A0BC66A00B8B120 /* Settings */,
 				B26BDD8329E7FED20070E787 /* Components */,
 				B26BDD7E29E7FCB20070E787 /* Home */,
@@ -219,6 +224,23 @@
 				B254B4AE29E8927A00548828 /* CircleButtonAnimationView.swift */,
 			);
 			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		B27E0FCB2A0E3FDB001D8A57 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				B27E0FCC2A0E3FE1001D8A57 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		B27E0FCC2A0E3FE1001D8A57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B27E0FCD2A0E3FFB001D8A57 /* LaunchScreen.storyboard */,
+				B27E0FCF2A0E41FB001D8A57 /* LaunchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B2AFCF9929FC31E100AED41B /* Detail */ = {
@@ -358,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27E0FCE2A0E3FFB001D8A57 /* LaunchScreen.storyboard in Resources */,
 				B2CFE3CF29E73D25008862CE /* Preview Assets.xcassets in Resources */,
 				B2CFE3D829E73EED008862CE /* Assets.xcassets in Resources */,
 			);
@@ -377,6 +400,7 @@
 				B254B4B429E9500A00548828 /* CoinRowView.swift in Sources */,
 				B22D66D229FB17F70098D1A7 /* PortfolioContainer.xcdatamodeld in Sources */,
 				B24AB4BC2A0BC69600B8B120 /* SettingsView.swift in Sources */,
+				B27E0FD02A0E41FB001D8A57 /* LaunchView.swift in Sources */,
 				B254B4BA29E982D300548828 /* HomeViewModel.swift in Sources */,
 				B2C6249529EDBFF70031E41B /* LocalFileManager.swift in Sources */,
 				B2FFB38629FDA0ED009A58C6 /* CoinDetailModel.swift in Sources */,
@@ -543,6 +567,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,6 +602,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
