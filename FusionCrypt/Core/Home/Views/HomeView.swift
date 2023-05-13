@@ -43,8 +43,14 @@ struct HomeView: View {
                         .transition(.move(edge: .leading))
                 }
                 if showPortfolio {
-                    portfolioCoinsList
-                        .transition(.move(edge: .trailing))
+                    ZStack(alignment: .top) {
+                        if vm.portfolioCoins.isEmpty && vm.searchText.isEmpty {
+                            portfolioEmptyText
+                        } else {
+                            portfolioCoinsList
+                        }
+                    }
+                    .transition(.move(edge: .trailing))
                 }
 
                 Spacer(minLength: 0)
@@ -131,6 +137,15 @@ extension HomeView {
         .listStyle(PlainListStyle())
     }
     
+    private var portfolioEmptyText: some View {
+        Text("You haven't added any coins to your portfolio yet. Click the + button to get started.")
+            .font(.callout)
+            .foregroundColor(Color.theme.accent)
+            .fontWeight(.medium)
+            .multilineTextAlignment(.center)
+            .padding(50)
+    }
+    
     private func segue(coin: CoinModel) {
         selectedCoin = coin
         showDetailView.toggle()
@@ -160,7 +175,7 @@ extension HomeView {
                 }
                 .onTapGesture {
                     withAnimation(.default) {
-                        vm.sortOption = (vm.sortOption == .holdings) ? .holdingsReversed : .rank
+                        vm.sortOption = (vm.sortOption == .holdings) ? .holdingsReversed : .holdings
                     }
                 }
             }
@@ -174,7 +189,7 @@ extension HomeView {
             .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
             .onTapGesture {
                 withAnimation(.default) {
-                    vm.sortOption = (vm.sortOption == .price) ? .priceReversed : .rank
+                    vm.sortOption = (vm.sortOption == .price) ? .priceReversed : .price
                 }
             }
             

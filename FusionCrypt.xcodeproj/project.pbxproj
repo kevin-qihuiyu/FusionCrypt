@@ -41,7 +41,6 @@
 		B2AFCF9D29FC326500AED41B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AFCF9C29FC326500AED41B /* DetailView.swift */; };
 		B2C6249529EDBFF70031E41B /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6249429EDBFF70031E41B /* LocalFileManager.swift */; };
 		B2CFE3C829E73D24008862CE /* FusionCryptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFE3C729E73D24008862CE /* FusionCryptApp.swift */; };
-		B2CFE3CA29E73D24008862CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFE3C929E73D24008862CE /* ContentView.swift */; };
 		B2CFE3CF29E73D25008862CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CFE3CE29E73D25008862CE /* Preview Assets.xcassets */; };
 		B2CFE3D829E73EED008862CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CFE3D729E73EED008862CE /* Assets.xcassets */; };
 		B2CFE3DB29E740A6008862CE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFE3DA29E740A6008862CE /* Color.swift */; };
@@ -86,7 +85,6 @@
 		B2C6249429EDBFF70031E41B /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		B2CFE3C429E73D24008862CE /* FusionCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusionCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CFE3C729E73D24008862CE /* FusionCryptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusionCryptApp.swift; sourceTree = "<group>"; };
-		B2CFE3C929E73D24008862CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2CFE3CE29E73D25008862CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2CFE3D729E73EED008862CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Resources/Assets.xcassets; sourceTree = "<group>"; };
 		B2CFE3DA29E740A6008862CE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -294,7 +292,6 @@
 				B254B4BB29E9A31600548828 /* Services */,
 				B254B4B029E89EC000548828 /* Models */,
 				B26BDD7D29E7FCA30070E787 /* Core */,
-				B2CFE3C929E73D24008862CE /* ContentView.swift */,
 				B2CFE3D729E73EED008862CE /* Assets.xcassets */,
 				B2CFE3CD29E73D25008862CE /* Preview Content */,
 			);
@@ -405,7 +402,6 @@
 				B2C6249529EDBFF70031E41B /* LocalFileManager.swift in Sources */,
 				B2FFB38629FDA0ED009A58C6 /* CoinDetailModel.swift in Sources */,
 				B251145D29F07D960074F759 /* MarketDataModel.swift in Sources */,
-				B2CFE3CA29E73D24008862CE /* ContentView.swift in Sources */,
 				B26BDD8229E7FCE40070E787 /* HomeView.swift in Sources */,
 				B241FFA529ED7AF300408C28 /* CoinImageView.swift in Sources */,
 				B26B003A29EEA074001BE06E /* UIApplication.swift in Sources */,
